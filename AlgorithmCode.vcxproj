@@ -123,7 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="1CompareAlgTest.cpp" />
     <ClCompile Include="1ComparetheAlgorithms.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="1CompareAlgTest.h" />
+    <ClInclude Include="1ComparetheAlgorithms.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

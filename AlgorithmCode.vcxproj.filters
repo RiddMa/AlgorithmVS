@@ -18,5 +18,16 @@
     <ClCompile Include="1ComparetheAlgorithms.cpp">
       <Filter>Resource Files</Filter>
     </ClCompile>
+    <ClCompile Include="1CompareAlgTest.cpp">
+      <Filter>Resource Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="1CompareAlgTest.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="1ComparetheAlgorithms.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
