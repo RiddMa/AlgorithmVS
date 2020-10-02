@@ -61,7 +61,7 @@ int DivideCountSubsequence(int A[], int left, int right)
 		{
 			if ((A[i] > 0 && ThisSum + A[i] < ThisSum) || (A[i]<0 && ThisSum + A[i] > ThisSum))throw "Error: Data out of bound!\n";
 			ThisSum += A[i];
-			if (ThisSum >= Mid2LeftMax)
+			if (ThisSum >= Mid2RightMax)
 				Mid2RightMax = ThisSum;
 		}
 		if (Mid2LeftMax + Mid2RightMax < Mid2LeftMax)throw "Error: Data out of bound!\n";
@@ -82,7 +82,7 @@ int DivideCountSubsequence(int A[], int left, int right)
 				MaxSum = MidMax;
 		}
 	}
-	else if (left == right) return A[left];
+	//else if (left == right) return A[left];
 	return MaxSum;
 }
 
